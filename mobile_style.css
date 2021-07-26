@@ -1,0 +1,226 @@
+/* .container{
+    margin-top: -18px;
+} */
+.logo{
+    position: relative;
+    left: 35px;
+    top: 50px;
+    margin: 2px 5px;
+    padding: 2px 5px;
+    display: inline-block;
+}
+.navbar-list{
+    display: none;
+}
+.icon-item{
+    display: block;
+    position: absolute;
+}
+.mobile-navbar-list {
+    display: none;
+    position: absolute;
+    background: grey;
+    width: 100%;
+    top: 120px;
+    left: 0;
+    padding: 30px 20px;
+}
+
+.box h1{
+    font-size: 30px;
+    margin: 30px 20px;
+    margin-top: 50px;
+    text-align: center;
+    line-height: 35px;
+    padding: 10px;
+    margin: 2px 2pxx;
+    text-transform: uppercase;
+}
+.box p{
+    font-size: 20px;
+    margin: 2px 5px;
+    text-align: center;
+}
+.box .btn-box{
+    margin: 20px;
+    padding: 3px;
+    text-align: center;
+}
+.box .btn-box #download{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 19px;
+    border: none;
+    border-radius: 2px;
+    color: white;
+    background-color: rgb(36, 36, 167);
+    display: block;
+    cursor: pointer;
+}
+.box .btn-box #features{
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 19px;
+    border:none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.box .btn-box #download:hover{
+    color: white;
+    background-color: rgb(71, 49, 49);
+}
+.box .btn-box #features:hover{
+    color: white;
+    background-color: rgb(36, 36, 167);
+}
+
+/* About section */
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.about h1{
+    font-size: 50px;
+    margin: 20px;
+    padding: 10px;
+}
+.about h2{
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+    line-height: 1;
+    padding: 10px;
+}
+.about hr{
+    height: 2px;
+    width: 15%;
+    background-color: blue;
+    margin: 0.8rem 0px;
+}
+.about .para-img{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.about .para-img p{
+    margin: 1.2rem 10px;
+    text-align: center;
+    padding: 1rem;
+}
+.about .para-img img{
+    margin: 20px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 10px;
+}
+
+/* portfolio container */
+.portfolio{
+    position: relative;
+    margin-top: 5rem;
+}
+.portfolio .heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.portfolio h1{
+    font-size: 50px;
+    margin: 20px;
+    padding: 10px;
+}
+.portfolio h2{
+    font-size: 30px;
+    line-height: 1;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.portfolio hr{
+    height: 2px;
+    width: 15%;
+    background-color: blue;
+    margin: 0.8rem 0px;
+}
+.portfolio h2{
+    margin: 10px;
+    padding: 10px;
+}
+.img-gallery{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.2rem 0px;
+   /*  border: 2px solid red; */
+}
+.img-1{
+    position: relative;
+    max-width: 100%;
+}
+.img-1 img{
+    width: 100%;
+    height: auto;
+}
+img{
+    margin: -3px;
+}
+.msg{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.5s ease;
+    background-color: #008CBA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-1:hover .msg{
+    opacity: 0.8;
+}
+.text{
+    padding: 10px 20px;
+    color: white;
+    font-size: 24px;
+}
+
+/* contact-section */
+.contact-section{
+    padding: 20px 20px;
+    display: block;
+}
+.container-contact{
+    text-align: center;
+}
+.container-contact p{
+    font-size: 22px;
+    font-style: italic;
+    padding: 20px 10px;
+    line-height: 15px;
+}
+.contact-btn{
+    margin: 8px 10px;
+    padding: 10px 20px;
+    width: 50%;
+    border-radius: 10px;
+    font-size: 1.2rem;
+}
+.contact-btn:hover{
+    background-color: rgb(123, 123, 201);
+    color: white;
+}
+
+/* services section */
+.service{
+    width: 100%;
+    /* margin: 10px 20px; */
+    padding: 10px 10px;
+}
